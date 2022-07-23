@@ -1,0 +1,8 @@
+{
+  "name": "@kdujs/babel-helper-kdu-transform-on",
+  "version": "1.0.2-rc.0",
+  "description": "to help transform on",
+  "author": "NKDuy",
+  "license": "MIT",
+  "main": "index.js"
+}
