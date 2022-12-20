@@ -1,0 +1,50 @@
+{
+  "name": "@kdujs/babel-plugin-jsx",
+  "version": "1.1.1",
+  "description": "Babel plugin for Kdu 3.0 JSX",
+  "author": "NKDuy",
+  "homepage": "https://github.com/kdujs/jsx-next/blob/main/packages/babel-plugin-jsx#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdujs/jsx-next.git"
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "watch": "rm -rf dist && tsc --watch",
+    "lint": "eslint 'src/*.ts'",
+    "prepublishOnly": "yarn build"
+  },
+  "bugs": {
+    "url": "https://github.com/kdujs/jsx-next/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@babel/helper-module-imports": "^7.0.0",
+    "@babel/plugin-syntax-jsx": "^7.0.0",
+    "@babel/template": "^7.0.0",
+    "@babel/traverse": "^7.0.0",
+    "@babel/types": "^7.0.0",
+    "@kdujs/babel-helper-kdu-transform-on": "^1.0.2",
+    "camelcase": "^6.0.0",
+    "html-tags": "^3.1.0",
+    "svg-tags": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.4",
+    "@types/jest": "^26.0.24",
+    "@types/svg-tags": "^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0",
+    "@kdujs/compiler-dom": "3.2.6",
+    "jest": "^26.0.1",
+    "kdu": "3.2.6",
+    "regenerator-runtime": "^0.13.9",
+    "ts-jest": "^26.1.3",
+    "typescript": "^4.4.2"
+  }
+}
