@@ -7,7 +7,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.15.5",
-    "css-loader": "^3.5.3",
+    "css-loader": "^5.2.7",
     "html-webpack-plugin": "^4.5.2",
     "kdu": "3.2.6",
     "style-loader": "^1.2.1",
